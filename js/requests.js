@@ -1,4 +1,4 @@
-const fetchString = `https://tryforce-habit-tracker-server.herokuapp.com/`;
+const fetchString = `http://localhost:3000`;
 
 async function getAll(type) {
   try {
