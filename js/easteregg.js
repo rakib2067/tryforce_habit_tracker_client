@@ -18,7 +18,7 @@ function logKey(e) {
 	for (const code in conditions) {
 		if (log == conditions[code]) {
 				selectedCode = code;
-				const itemget = new Audio('../itemget.mp3');
+				const itemget = new Audio('./itemget.mp3');
 				itemget.play();
 				setTimeout(redirect, 2200);
 		}
